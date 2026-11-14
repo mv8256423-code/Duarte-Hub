@@ -101,7 +101,7 @@ do
 	});
 	
 	Window:EditOpenButton({
-		Title = "Open Daddy's UI",
+		Title = "Open Duarte Hub",
 		Icon = "rbxassetid://72462144048455",
 		CornerRadius = UDim.new(2, 6),
 		StrokeThickness = 2,
@@ -2415,7 +2415,7 @@ Features:
 	Tabs.SocialsTab:Button({
 		Title = "Copy YouTube",
 		Callback = function()
-			if pcall(setclipboard, "https://www.youtube.com/@bxrutodev") then
+			if pcall(setclipboard, "https://www.youtube.com/@DUARTE_MODDER") then
 				WindUI:Notify({
 					Title = "Copied!",
 					Content = "YouTube link copied! Please go sub!",
